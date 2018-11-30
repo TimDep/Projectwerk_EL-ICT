@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/github.css">
     <link rel="stylesheet" type="text/css" href="assets/css/screen.css">
     <title>Projectwerk EL-ICT</title>
 </head>
@@ -11,7 +13,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="index.html">Projectwerk EL-ICT</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
@@ -50,81 +52,88 @@
 
 
     <h2>menu.html</h2>
-    <blockquote>
-        <pre>
-            <code>
-                &lt;html&gt;
-                &lt;head&gt;
-                    &lt;title&gt;Untitled&lt;/title&gt;
-                &lt;/head&gt;
-                &lt;body&gt;
-                    &lt;p&gt;&lt;a href="tekst1.htm" target=rechts&gt;Deel 1&lt;/a>&lt;/p&gt;
-                    &lt;p&gt;&lt;a href="tekst2.htm" target=rechts&gt;Deel 2&lt;/a&gt;&lt;/p&gt;
-                &lt;/body&gt;
-                &lt;/html&gt;
-        </code>
-        </pre>
-    </blockquote>
     <pre>
-
-							 </pre>
+        <code data-language="html">
+            &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;Uitleg&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;p&gt;&lt;a href="tekst1.htm" target=rechts&gt;Deel 1&lt;/a>&lt;p&gt;
+                &lt;p&gt;&lt;a href="tekst2.htm" target=rechts&gt;Deel 2&lt;/a&gt;&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
 
     <h2>uitleg.html</h2>
+
     <pre>
-			 &lt;html&gt;
-				 &lt;head&gt;
-							 &lt;title&gt;Uitleg&lt;/title&gt;
-			 &lt;/head&gt;
-			 &lt;body&gt;
-				 &lt;h1&gt;Projectwerk EL-ICT 2018&lt;/h1&gt;
-							 &lt;h1&gt;&lt;A HREF="https://iiw.kuleuven.be/"&gt;KUL-FIIW&lt;/A&gt;&lt;/h1&gt;
-							 &lt;h1&gt;&lt;A HREF="https://iiw.kuleuven.be/gent"&gt;Technlogiecampus Gent&lt;/A&gt;&lt;/h1&gt;
-							 &lt;h1&gt;Websites&lt;/h1&gt;
-							 &lt;h1&gt;Html&lt;/h1&gt;
-			 &lt;/body&gt;
-			 &lt;/html&gt;
-			 </pre>
+        <code data-language="html">
+            &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;Uitleg&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;h1&gt;Projectwerk EL-ICT 2018&lt;/h1&gt;
+                &lt;h1&gt;&lt;a href="https://iiw.kuleuven.be/"&gt;KUL-FIIW&lt;/a&gt;&lt;/h1&gt;
+                &lt;h1&gt;&lt;a href="https://iiw.kuleuven.be/gent"&gt;Technlogiecampus Gent&lt;/a&gt;&lt;/h1&gt;
+                &lt;h1&gt;Websites&lt;/h1&gt;
+                &lt;h1&gt;Html&lt;/h1&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
+
 
     <h2>index.html</h2>
-    <pre>
-				 &lt;html&gt;
-			 &lt;head&gt;
-				 &lt;title&gt;Projectwerk EL-ICT 2018&lt;/title&gt;
-			 &lt;/head&gt;
-			 &lt;frameset cols="200,*"&gt;
-				 &lt;frame name="links" src="menu.htm"&gt;
-				 &lt;frame name="rechts" src="uitleg.htm" src="tekst1.htm"&gt;
-			 &lt;/frameset&gt;
-             &lt;/html&gt;
-		     </pre>
+    <pre><code data-language="html">
+            &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;Projectwerk EL-ICT 2018&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;frameset cols="200,*"&gt;
+                    &lt;frame name="links" src="menu.htm"&gt;
+                    &lt;frame name="rechts" src="uitleg.htm" src="tekst1.htm"&gt;
+                &lt;/frameset&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
 
     <h2>tekst1.html</h2>
     <pre>
-			 &lt;html&gt;
-			 &lt;head&gt;
-							 &lt;title&gt;Tekst1&lt;/title&gt;
-			 &lt;/head&gt;
-			 &lt;body&gt;
-			 &lt;p&gt;Hier verschijnt er info ivm Deel1&lt;/p&gt;
-			 &lt;/body&gt;
-             &lt;/html&gt;
-			 </pre>
+        <code data-language="html">
+            &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;Tekst1&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;p&gt;Hier verschijnt er info ivm Deel1&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
 
     <h2>tekst2.html</h2>
     <pre>
-			 &lt;html&gt;
-			 &lt;head&gt;
-							 &lt;title&gt;Tekst2&lt;/title&gt;
-			 &lt;/head&gt;
-			 &lt;body&gt;
-			 &lt;p&gt;Hier verschijnt er info ivm Deel2&lt;/p&gt;
-			 &lt;/body&gt;
-             &lt;/html&gt;
-			 </pre>
+        <code data-language="html">
+            &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;Tekst2&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;p&gt;Hier verschijnt er info ivm Deel2&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
 
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="assets/js/rainbow-custom.min.js"></script>
 </body>
 </html>
