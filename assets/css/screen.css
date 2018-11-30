@@ -1,1 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Orbitron');
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,
+.navbar .navbar-brand,
+.navbar .navbar-nav{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.navbar,
+.navbar .dropdown-menu{
+    background-color: #053C5E;
+    color: white;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-toggler,
+.navbar-light .dropdown-item{
+    color: white;
+}
+
+.navbar-light .navbar-toggler{
+    background-color: white;
+}
+
+.navbar .dropdown-item:focus,
+.navbar .dropdown-item:hover{
+    background-color: #BFDBF7;
+}
+
+.container .close {
+    float: none;
+    font-size: 13px;
+}
