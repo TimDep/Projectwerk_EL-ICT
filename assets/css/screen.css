@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6,
 }
 
 .navbar-light .navbar-toggler{
-    background-color: white;
+    border-color: white;
 }
 
 .navbar .dropdown-item:focus,
@@ -32,7 +32,18 @@ h1,h2,h3,h4,h5,h6,
     background-color: #BFDBF7;
 }
 
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #BFDBF7;
+}
+
 .container .close {
     float: none;
     font-size: 13px;
+}
+
+.container{
+    margin-top: 5%;
 }
